@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#071021"/>
+  <circle cx="223" cy="138" r="180" fill="url(#paint0_radial)" fill-opacity="0.65"/>
+  <circle cx="969" cy="488" r="220" fill="url(#paint1_radial)" fill-opacity="0.55"/>
+  <rect x="82" y="76" width="1036" height="478" rx="34" fill="url(#paint2_linear)" stroke="#7A9FFF" stroke-opacity="0.28"/>
+  <rect x="114" y="112" width="972" height="406" rx="28" fill="#0B152A" fill-opacity="0.88"/>
+  <text x="140" y="214" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700">ZXCHARGED CLIENT</text>
+  <text x="140" y="284" fill="#A8B7D8" font-family="Segoe UI, Arial, sans-serif" font-size="28">Premium PvP client keys</text>
+  <text x="140" y="364" fill="#EAF0FF" font-family="Segoe UI, Arial, sans-serif" font-size="32">30 / 60 / 90 дней и Lifetime</text>
+  <text x="140" y="418" fill="#D2DCF4" font-family="Segoe UI, Arial, sans-serif" font-size="24">Offline-активация, premium HUD, стабильный runtime</text>
+  <rect x="140" y="460" width="242" height="56" rx="16" fill="url(#paint3_linear)"/>
+  <text x="186" y="497" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Купить ключ</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(223 138) rotate(90) scale(180)">
+      <stop stop-color="#79A2FF"/>
+      <stop offset="1" stop-color="#79A2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(969 488) rotate(90) scale(220)">
+      <stop stop-color="#1A4FB7"/>
+      <stop offset="1" stop-color="#1A4FB7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint2_linear" x1="600" y1="76" x2="600" y2="554" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13244A" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0A1326" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="140" y1="460" x2="382" y2="516" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A7FF"/>
+      <stop offset="1" stop-color="#2D6CFF"/>
+    </linearGradient>
+  </defs>
+</svg>

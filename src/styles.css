@@ -503,7 +503,8 @@ h3 {
 
 .glass-card,
 .price-card,
-.faq-item {
+.faq-item,
+.offer-card {
   border: 1px solid var(--border);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.035)),
@@ -554,7 +555,9 @@ h3 {
 
 .benefit-card p,
 .price-card p,
-.faq-item p {
+.faq-item p,
+.offer-content p,
+.offer-content li {
   color: var(--muted);
   line-height: 1.65;
 }
@@ -686,6 +689,84 @@ h3 {
 
 .faq-item p {
   padding: 0 22px 20px;
+}
+
+.offer-page {
+  padding-top: 42px;
+}
+
+.offer-heading {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.offer-heading h1 {
+  max-width: 900px;
+  font-size: clamp(2.2rem, 5vw, 4.6rem);
+  line-height: 0.98;
+}
+
+.offer-card {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 42px);
+  border-radius: var(--radius-lg);
+}
+
+.offer-content {
+  display: grid;
+  gap: 16px;
+}
+
+.offer-content h2 {
+  margin-top: 18px;
+  font-size: clamp(1.28rem, 2.1vw, 1.72rem);
+  letter-spacing: -0.035em;
+}
+
+.offer-content p {
+  text-align: left;
+}
+
+.offer-content strong {
+  color: var(--text);
+}
+
+.offer-content ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.offer-content li::marker {
+  color: var(--accent);
+}
+
+.offer-content hr {
+  margin: 10px 0 2px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.offer-content a,
+.footer a {
+  color: var(--accent-3);
+  font-weight: 800;
+}
+
+.offer-content a:hover,
+.footer a:hover {
+  color: var(--text);
+}
+
+.offer-party {
+  display: grid;
+  gap: 4px;
+  padding: 16px;
+  border: 1px solid rgba(92, 200, 255, 0.16);
+  border-radius: 18px;
+  background: rgba(92, 200, 255, 0.055);
 }
 
 .footer {
@@ -919,7 +1000,8 @@ h3 {
 
   .glass-card,
   .price-card,
-  .faq-item {
+  .faq-item,
+  .offer-card {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
   }
 
@@ -935,6 +1017,19 @@ h3 {
 
   .price-card {
     min-height: 0;
+  }
+
+  .offer-page {
+    padding-top: 18px;
+  }
+
+  .offer-card {
+    padding: 20px;
+    border-radius: 22px;
+  }
+
+  .offer-heading h1 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
   }
 
   .footer {

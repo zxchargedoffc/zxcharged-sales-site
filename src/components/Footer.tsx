@@ -7,7 +7,7 @@ export function Footer() {
       </div>
       <p>
         © {new Date().getFullYear()} ZXCHARGED. Используйте клиент с учётом
-        правил серверов.
+        правил серверов. <a href="/offer">Публичная оферта</a>
       </p>
     </footer>
   );

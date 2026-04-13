@@ -29,6 +29,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 112px;
 }
 
 body {
@@ -184,6 +185,7 @@ a {
 
 .section {
   padding: 64px 0;
+  scroll-margin-top: 112px;
 }
 
 .hero {
@@ -744,7 +746,8 @@ h3 {
   }
 
   html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    scroll-padding-top: 18px;
   }
 
   body {
@@ -771,7 +774,7 @@ h3 {
     min-height: 100svh;
     padding-right: 12px;
     padding-left: 12px;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .nav {
@@ -817,6 +820,7 @@ h3 {
 
   .section {
     padding: 46px 0;
+    scroll-margin-top: 18px;
   }
 
   .hero {

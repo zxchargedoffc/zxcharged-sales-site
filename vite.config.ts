@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     sourcemap: false,
     cssMinify: true,
-    target: 'es2020'
+    target: ['es2018', 'safari13']
   }
 });

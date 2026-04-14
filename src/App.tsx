@@ -18,8 +18,8 @@ function App() {
 
   useEffect(() => {
     document.title = offerRoute
-      ? '????????? ?????? ? ZXCHARGED CLIENT'
-      : 'ZXCHARGED CLIENT ? Premium PvP Client';
+      ? 'Публичная оферта — ZXCHARGED CLIENT'
+      : 'ZXCHARGED CLIENT — Premium PvP Client';
 
     if (offerRoute) {
       return;

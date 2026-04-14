@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { BenefitsSection } from './components/BenefitsSection';
 import { Footer } from './components/Footer';
 import { FaqSection } from './components/FaqSection';
+import { FeatureShowcaseSection } from './components/FeatureShowcaseSection';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { PricingSection } from './components/PricingSection';
@@ -17,8 +18,8 @@ function App() {
 
   useEffect(() => {
     document.title = offerRoute
-      ? 'Публичная оферта — ZXCHARGED CLIENT'
-      : 'ZXCHARGED CLIENT — Premium PvP Client';
+      ? '????????? ?????? ? ZXCHARGED CLIENT'
+      : 'ZXCHARGED CLIENT ? Premium PvP Client';
 
     if (offerRoute) {
       return;
@@ -47,6 +48,7 @@ function App() {
       ) : (
         <>
           <HeroSection />
+          <FeatureShowcaseSection />
           <BenefitsSection />
           <PricingSection />
           <FaqSection />

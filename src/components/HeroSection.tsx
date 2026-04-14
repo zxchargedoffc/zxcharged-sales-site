@@ -1,3 +1,6 @@
+import './HeroSection.download.css';
+import { loaderDownloadUrl } from '../lib/download';
+
 export function HeroSection() {
   return (
     <section className="hero section" id="top">
@@ -18,6 +21,12 @@ export function HeroSection() {
           <a className="button button-secondary" href="#benefits">
             Смотреть преимущества
           </a>
+        </div>
+        <div className="hero-download">
+          <a className="button button-download" href={loaderDownloadUrl} download>
+            Скачать клиент
+          </a>
+          <p className="hero-download-note">Автообновления, защита и лицензия уже встроены</p>
         </div>
         <div className="hero-metrics" aria-label="Ключевые преимущества">
           <div>

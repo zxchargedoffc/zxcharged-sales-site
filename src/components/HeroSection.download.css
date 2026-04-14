@@ -1,0 +1,49 @@
+.hero-download {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid rgba(92, 200, 255, 0.16);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 100%),
+    rgba(255, 255, 255, 0.035);
+}
+
+.button-download {
+  min-width: 208px;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(92, 200, 255, 0.28);
+  color: var(--text);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.button-download:hover {
+  border-color: rgba(92, 200, 255, 0.42);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.hero-download-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 720px) {
+  .button-download {
+    width: 100%;
+  }
+
+  .hero-download {
+    width: 100%;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .hero-download-note {
+    font-size: 0.84rem;
+  }
+}

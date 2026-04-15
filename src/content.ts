@@ -1,5 +1,5 @@
 export const purchaseBaseUrl =
-  import.meta.env.VITE_PURCHASE_URL || 'https://t.me/zxcharged_support';
+  import.meta.env.VITE_PURCHASE_URL || 'https://t.me/zxchargedshop_bot';
 
 export interface BenefitItem {
   title: string;

@@ -1,4 +1,4 @@
-import { pricing } from '../content';
+import { pricingCards } from '../pricingCatalog';
 import { buyLink } from '../lib/purchase';
 
 export function PricingSection() {
@@ -13,7 +13,7 @@ export function PricingSection() {
         </p>
       </div>
       <div className="pricing-grid">
-        {pricing.map((plan) => (
+        {pricingCards.map((plan) => (
           <article
             className={`price-card ${plan.popular ? 'popular' : ''}`}
             key={plan.name}
@@ -29,7 +29,7 @@ export function PricingSection() {
             </ul>
             <a
               className="button button-plan"
-              href={buyLink(plan.name)}
+              href={buyLink(plan.payload)}
               target="_blank"
               rel="noreferrer"
             >

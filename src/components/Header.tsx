@@ -1,5 +1,6 @@
 import type { MouseEvent } from 'react';
 import { scrollToHash } from '../lib/hashScroll';
+import { buyLink } from '../lib/purchase';
 
 function handleAnchorClick(event: MouseEvent<HTMLAnchorElement>) {
   if (
@@ -39,7 +40,7 @@ export function Header() {
         <a href="/#pricing" onClick={handleAnchorClick}>Тарифы</a>
         <a href="/#faq" onClick={handleAnchorClick}>FAQ</a>
       </nav>
-      <a className="nav-cta" href="/#pricing" onClick={handleAnchorClick}>
+      <a className="nav-cta" href={buyLink()} target="_blank" rel="noreferrer">
         Купить
       </a>
     </header>

@@ -1,5 +1,6 @@
 import './HeroSection.download.css';
 import { loaderDownloadUrl } from '../lib/download';
+import { buyLink } from '../lib/purchase';
 
 export function HeroSection() {
   return (
@@ -15,7 +16,7 @@ export function HeroSection() {
           offline-активацией ключей и стабильным runtime для ежедневной игры.
         </p>
         <div className="hero-actions">
-          <a className="button button-primary" href="#pricing">
+          <a className="button button-primary" href={buyLink()} target="_blank" rel="noreferrer">
             Купить ключ
           </a>
           <a className="button button-secondary" href="#benefits">
